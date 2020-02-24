@@ -2,13 +2,7 @@ package com.epam.cost;
 
 
 	public class CalculateCost {
-		/*
-		 * To Calculate Construction Cost
-		 * @param materialStandard
-		 * @param area
-		 * @param automated
-		 * Returns the Cost needed to construct 
-		 */
+		
 		public double getCost(String materialStandard,double area,boolean automated) {
 			double cost = 0.0;
 			if(materialStandard.equals("standard"))
